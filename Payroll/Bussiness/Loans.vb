@@ -21,6 +21,7 @@ Public Class Loans
         End Get
         Private Set(ByVal value As DataTable)
             _tLoan = value
+
         End Set
     End Property
 
