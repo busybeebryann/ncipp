@@ -1,20 +1,6 @@
 ﻿Public Class mainform
 
-    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-
-    End Sub
-
-    Private Sub LinkLabel3_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-
-    End Sub
-
-    Private Sub LinkLabel5_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-
-    End Sub
-
-    Private Sub LinkLabel6_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-
-    End Sub
+ 
 
     Private Sub LinkLabel7_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
 
@@ -32,10 +18,7 @@
         Me.Close()
     End Sub
 
-   
-    Private Sub LinkLabel13_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-
-    End Sub
+ 
     Dim pictureSlide As Integer = 0
     Private Sub Timer1_Tick(sender As Object, e As EventArgs)
         pictureSlide = pictureSlide + 1
@@ -58,14 +41,6 @@
 
     Private Sub mainform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
-    End Sub
-
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
-
     End Sub
 
     Private Sub Timer1_Tick_1(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -96,26 +71,6 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Dim objDept As New ManageDepartment
         objDept.ShowDialog()
-    End Sub
-
-    Private Sub Button5_Click(sender As Object, e As EventArgs)
-
-
-    End Sub
-
-    Private Sub Button6_Click(sender As Object, e As EventArgs)
-
-
-    End Sub
-
-    Private Sub Button7_Click(sender As Object, e As EventArgs)
-
-
-    End Sub
-
-
-    Private Sub Button10_Click(sender As Object, e As EventArgs)
-
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs)
@@ -186,9 +141,6 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnAddEmp.Click
         Dim objEmployee As New employeelistnew
         objEmployee.Show()
-        'Dim objForm As New ManageEmployee
-        'objForm.sMyStatus = "NEW"
-        'objForm.ShowDialog()
     End Sub
 
     Private Sub Button32_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
